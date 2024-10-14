@@ -10,6 +10,9 @@ on:
 
 jobs:
   create_release_pr:
+    permissions:
+      contents: write
+      pull-requests: write
     runs-on: ubuntu-latest
 
     steps:
