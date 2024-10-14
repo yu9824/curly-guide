@@ -32,5 +32,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: create release notes"
           branch: release-branch
+          delete-branch: true
           title: "Release PR"
           body: ${{ steps.generate_release_notes.outputs.notes }}
