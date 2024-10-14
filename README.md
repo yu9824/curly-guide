@@ -22,3 +22,5 @@ Before [pep518](https://peps.python.org/pep-0518/)
 
 After [pep518](https://peps.python.org/pep-0518/)
 - `pyproject.toml`
+
+Update README.
